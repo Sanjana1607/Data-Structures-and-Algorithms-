@@ -4,7 +4,7 @@ Link: https://leetcode.com/problems/single-number
 Approach:
 - XOR every element of the array.
 - Duplicate elements cancel each other out.
-- The remaining value is the unique element.
+- The remaining value after XOR of every element is the unique element.
 
 Time Complexity: O(n)
 Space Complexity: O(1)
